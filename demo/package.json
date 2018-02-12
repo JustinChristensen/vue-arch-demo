@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Justin Christensen <justin@promise.io>",
+  "scripts": {
+    "start": "browser-sync start -c bs-config.js",
+    "build": "webpack",
+    "lint": "eslint ."
+  },
+  "main": "./src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "core-components": "../core-components",
+    "core-tools": "../core-tools",
+    "html-webpack-plugin": "^2.30.1",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
+}

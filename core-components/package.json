@@ -1,0 +1,16 @@
+{
+  "name": "core-components",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Justin Christensen <justin@promise.io>",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint .",
+    "clean": "rm -r dist"
+  },
+  "main": "./src/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "core-tools": "../core-tools"
+  }
+}
